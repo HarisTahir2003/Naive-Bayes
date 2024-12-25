@@ -26,7 +26,8 @@ The Naive Bayes folder contains the following files:
    
 ## Introduction
 
-Linear regression is a fundamental machine-learning technique used to model the relationship between a dependent variable and one or more independent variables. This assignment provides a clear and concise example of how to implement linear regression from scratch using Python.
+Multinomial Naive Bayes is a probabilistic machine learning algorithm based on Bayes' theorem, commonly used for text classification. It assumes features (e.g., word frequencies) follow a multinomial distribution and are conditionally independent given the class. This simplicity makes it efficient and effective for tasks like spam detection or sentiment analysis. This assignment provides a clear and concise example of how to implement Naive Bayes from scratch using Python. The assignment explores how to classify a dataset of tweets into different categories of sentiments.
+
 ## Installation Requirements
 
 To run this notebook, you will need the following packages:
@@ -83,21 +84,20 @@ The notebook is organized into the following sections:
 
 ## Data
 
-The dataset used in this notebook is a .csv file.  
-- The `temperatures.csv` dataset is designed for bias correction of next-day maximum and minimum air temperature forecasts produced by the Local Data Assimilation and Prediction System (LDAPS) operated by the Korea Meteorological Administration. <br> <br>
+**Tweet Evaluation Dataset**: Instead of downloading the dataset manually, we will be using the [`datasets`](https://huggingface.co/docs/datasets) library from Hugging Face to automatically download and manage the Tweet Eval dataset. This library is part of the Hugging Face ecosystem, widely used for Natural Language Processing (NLP) tasks. The `datasets` library not only downloads the dataset but also offers a standardized interface for accessing and handling the data, making it compatible with other popular libraries like Pandas and PyTorch. 
 
-Dataset Summary:
-- **Feature Type:** Real
-- **Instances:** 7586
-- **Input Features:** 21 (including present-day temperature data, LDAPS model forecasts, and geographical information)
-- **Output:** Next-day maximum (Next_Tmax)
+The three .csv files given in this repository were downloaded by running the code block under the 'Loading Dataset' markdown in the Jupyter Notebook. The dataset has two columns: `text` and `label`, where `text` is the sentence and `label` is the emotion label. The goal is to classify tweets into various emotional categories (e.g., joy, sadness, anger) by analyzing their content.
+
+You can explore the extensive list of datasets available on Hugging Face [here](https://huggingface.co/datasets).
 
 
 ## Training and Visualization
 
 The entire training process alongside the maths involved is explained in detail in the jupyter notebook. 
-- Note: A good knowledge of Calculus is required to fully understand the gradient descent algorithm, especially the concept of partial derivatives.
-
+- Note: A good knowledge of Probability is required to fully understand the Naive Bayes algorithm, especially the concept of conditional probabilties and Bayes' Theorm.
+Useful Links for understanding these concepts:
+- [https://youtube.com/watch?v=K0B2P1Zpdqs](https://youtu.be/_IgyaD7vOOA?si=TdchAf_JmC9ymkfe)  (MacOS)
+- https://youtu.be/9wCnvr7Xw4E?si=boWFV0JIQz3GDITF (Bayes' Theorem)
 
 ## Lessons
 
