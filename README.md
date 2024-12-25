@@ -96,7 +96,7 @@ You can explore the extensive list of datasets available on Hugging Face [here](
 The entire training process alongside the maths involved is explained in detail in the jupyter notebook. 
 - Note: A good knowledge of Probability is required to fully understand the Naive Bayes algorithm, especially the concept of conditional probabilties and Bayes' Theorm.
 Useful Links for understanding these concepts:
-- [https://youtube.com/watch?v=K0B2P1Zpdqs](https://youtu.be/_IgyaD7vOOA?si=TdchAf_JmC9ymkfe)  (MacOS)
+- [https://youtube.com/watch?v=K0B2P1Zpdqs](https://youtu.be/_IgyaD7vOOA?si=TdchAf_JmC9ymkfe)  (Conitional Probability)
 - https://youtu.be/9wCnvr7Xw4E?si=boWFV0JIQz3GDITF (Bayes' Theorem)
 
 ## Lessons
