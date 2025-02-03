@@ -117,8 +117,7 @@ A Naive Bayes assignment can teach a variety of valuable skills and concepts, in
 
 
 ## Screenshots
-<h3> (a) Univariate Linear Regression </h3>
-<h4> 1. This image shows a confusion matrix of the Naive Bayes model when run on the test dataset. The picture shows that while most of the data has correctly been classified, there are still many false positives and false negatives that ultimately affect the overall performance of the model. </h4>
+<h4> This image shows a confusion matrix of the Naive Bayes model when run on the test dataset. The picture shows that while most of the data has correctly been classified, there are still many false positives and false negatives that ultimately affect the overall performance of the model. </h4>
 <img src="pic1.png" width="400px"> <br> 
 
 
