@@ -101,21 +101,19 @@ Useful Links for understanding these concepts:
 
 ## Lessons
 
-A linear regression project can teach a variety of valuable skills and concepts, including:
+A Naive Bayes assignment can teach a variety of valuable skills and concepts, including:
 
-- Data Preprocessing: How to clean and prepare data for analysis, including handling missing values, scaling features, and encoding categorical variables.
+### 1. **Understanding the Naive Bayes Assumption**
+   - The project reinforces the assumption that features (words in text classification) are **conditionally independent** given the class. While this is rarely true in real-world data, Naive Bayes still performs well because it captures dominant word distributions effectively.
 
-- Feature Selection: Identifying which features (variables) are most important for making predictions and how to choose them effectively.
+### 2. **Importance of Data Preprocessing**
+   - The impact of **cleaning and preprocessing text** (removing URLs, stopwords, punctuation, and lowercasing) is crucial for improving classification performance. The project highlights how these steps affect the model’s ability to generalize.
 
-- Model Building: Understanding how to build a linear regression model, including splitting data into training and testing sets, fitting the model, and making predictions.
+### 3. **Vectorization and Feature Representation Matter**
+   - Implementing **Bag of Words (BoW)** demonstrates how transforming text into numerical data is essential for machine learning models. 
 
-- Performance Evaluation: Using metrics like Root Mean Squared Error (RMSE) to evaluate the performance of your model and understand its accuracy.
-
-- Interpreting Results: Understanding the coefficients of the linear regression model and what they signify in terms of the relationships between variables.
-
-- Visualization: Using visualization tools to plot data, visualize the regression line, and understand the relationship between variables.
-
-- Algorithm Implementation: Learning about the underlying algorithm used in linear regression and how it optimizes the line of best fit.
+### 4. **Evaluating Model Performance with Metrics**
+   - Using **accuracy, precision, recall, F1-score, and confusion matrices** highlights the strengths and weaknesses of Naive Bayes. For instance, if the dataset has imbalanced classes, accuracy alone may not be the best metric.
 
 
 ## Screenshots
